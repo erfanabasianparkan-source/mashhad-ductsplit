@@ -6,7 +6,7 @@
   --max:1180px;
 }
 *{box-sizing:border-box}
-html{scroll-padding-top:96px;background:var(--paper)}
+html{scroll-padding-top:96px;scroll-behavior:smooth;background:var(--paper)}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:"Vazirmatn",Tahoma,sans-serif;font-size:15px;line-height:1.9;overflow-x:hidden}
 body.menu-lock{overflow:hidden}a{text-decoration:none;color:inherit}button,input,select{font:inherit}button{cursor:pointer}
 img{display:block;max-width:100%}section{scroll-margin-top:96px}
