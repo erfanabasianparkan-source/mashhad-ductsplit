@@ -62,7 +62,7 @@ img{display:block;max-width:100%}section{scroll-margin-top:96px}
    - Never force a 430px body on desktop or shrink typography to unreadable sizes.
 */
 .hero{
-  background-image:url('assets/hero.jpeg');
+  background-image:url('/assets/hero-duct.webp');
   background-size:cover;
   background-position:center right;
 }

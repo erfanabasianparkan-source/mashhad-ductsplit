@@ -16,7 +16,7 @@ document.addEventListener('keydown',(e)=>{if(e.key==='Escape') setMenu(false);})
 
 const logoFiles=['IMG_4661.PNG','IMG_4662.PNG','IMG_4663.JPG','IMG_4664.PNG','IMG_4665.JPG','IMG_4666.PNG'];
 const track=document.getElementById('logoTrack');
-const logoAlts={'IMG_4661.PNG':'ایران رادیاتور','IMG_4662.PNG':'جی‌پلاس','IMG_4663.JPG':'ال‌جی','IMG_4664.PNG':'سامسونگ','IMG_4665.JPG':'AUX','IMG_4666.PNG':'گرین'}; const makeLogos=arr=>arr.map(name=>`<div class="logo-item"><img src="assets/logos/${encodeURIComponent(name)}" alt="${logoAlts[name]||'برند تهویه مطبوع'}" loading="lazy" decoding="async"></div>`).join('');
+const logoAlts={'IMG_4661.PNG':'ایران رادیاتور','IMG_4662.PNG':'جی‌پلاس','IMG_4663.JPG':'ال‌جی','IMG_4664.PNG':'سامسونگ','IMG_4665.JPG':'AUX','IMG_4666.PNG':'گرین'}; const makeLogos=arr=>arr.map(name=>`<div class="logo-item"><img src="/assets/logos/${encodeURIComponent(name)}" alt="${logoAlts[name]||'برند تهویه مطبوع'}" loading="lazy" decoding="async"></div>`).join('');
 if(track) track.innerHTML=makeLogos(logoFiles)+makeLogos(logoFiles);
 
 const DATA={
