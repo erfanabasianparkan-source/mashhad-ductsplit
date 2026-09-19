@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://mashhad-ductsplit.ir/sitemap.xml
